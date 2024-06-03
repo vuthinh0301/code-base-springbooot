@@ -1,4 +1,4 @@
-package com.atomic.codebasespringboot.exception;
+package com.atomic.theaichemist.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

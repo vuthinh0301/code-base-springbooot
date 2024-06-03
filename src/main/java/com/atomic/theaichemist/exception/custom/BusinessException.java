@@ -1,10 +1,10 @@
-package com.atomic.codebasespringboot.exception.custom;
+package com.atomic.theaichemist.exception.custom;
 
 import lombok.Data;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import static com.atomic.codebasespringboot.constant.error.ErrorCodes.ERROR_CODES;
+import static com.atomic.theaichemist.constant.error.ErrorCodes.ERROR_CODES;
 
 @Data
 @ResponseStatus(HttpStatus.BAD_REQUEST)

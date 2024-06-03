@@ -1,7 +1,7 @@
-package com.atomic.codebasespringboot.exception;
+package com.atomic.theaichemist.exception;
 
-import com.atomic.codebasespringboot.constant.error.ErrorCodes;
-import com.atomic.codebasespringboot.exception.custom.BusinessException;
+import com.atomic.theaichemist.constant.error.ErrorCodes;
+import com.atomic.theaichemist.exception.custom.BusinessException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import static com.atomic.codebasespringboot.constant.error.ErrorCodes.AN_ERROR_OCCURRED;
+import static com.atomic.theaichemist.constant.error.ErrorCodes.AN_ERROR_OCCURRED;
 
 @RestControllerAdvice
 public class ExceptionHandlingCenter {

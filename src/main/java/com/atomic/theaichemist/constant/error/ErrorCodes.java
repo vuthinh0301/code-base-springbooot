@@ -1,4 +1,4 @@
-package com.atomic.codebasespringboot.constant.error;
+package com.atomic.theaichemist.constant.error;
 
 import java.util.HashMap;
 import java.util.Map;
